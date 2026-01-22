@@ -57,7 +57,7 @@ To program your board, simply run the flash.sh script and provide the path to yo
 
 **Example:**
 ``` sh
-./flash.sh ~Desktop/Project/output_files/Project.svf
+./flash.sh ~/Desktop/Project/output_files/Project.svf
 ```
 
 ### What the script does:
