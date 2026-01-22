@@ -1,0 +1,4 @@
+firmware/*.hex
+*.svf
+*.sof
+.DS_Store
