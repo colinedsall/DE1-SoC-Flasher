@@ -67,7 +67,7 @@ To program your board, simply run the flash.sh script and provide the path to yo
 
 ## Troubleshooting
 
-### "Success! Board is running." but nothing happens?
+### "Success! Board flashed." but nothing happens?
 This is usually a logic reset issue, not a flashing issue.
 * The Cause: The DE1-SoC keys are Active Low (0 = Pressed, 1 = Released). If your Verilog says "if(reset)" and you mapped Reset to KEY[0], your design is being held in reset whenever you aren't touching the board.
 * The Fix: Press and hold KEY[0]. If it starts working, invert your reset logic in Verilog (use !reset).
