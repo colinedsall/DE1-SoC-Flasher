@@ -18,7 +18,7 @@ The DE1-SoC requires a specific firmware file (blaster_6810.hex) to wake up the 
 **Where to find it:**
 1. Open your Windows VM (Parallels/UTM) or a Windows PC with Quartus installed.
 2. Navigate to the Quartus drivers folder. It is usually located at:
-   - C:\intelFPGA_lite\<version>\quartus\drivers\usb-blaster-ii\blaster_6810.hex
+   - C:\intelFPGA_lite\<version>\quartus\bin64\blaster_6810.hex
    - OR C:\intelFPGA\<version>\quartus\linux64\blaster_6810.hex
 3. Copy this file to your Mac and place it in the firmware/ folder of this repository:
    de1-soc-flasher/firmware/blaster_6810.hex
