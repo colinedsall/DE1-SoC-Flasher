@@ -37,6 +37,13 @@ Next time you run "Compile Design", a .svf file will appear in your output_files
 
 Note that this is not a permanent setting, as you will have to reconfigure every time you open a new project.
 
+#### Alternative: Use the Programmer Tool
+1. Open Tools > Programmer
+2. Go to File > Create JAM, JBC, SVF, or ISC File...
+3. Select File Format: Serial Vector Format (.svf)
+4. Click "OK"
+5. The `.svf` file will appear in your project directory.
+
 ## Setup
 1. Clone or Download this repository.
 2. Make the scripts executable:
